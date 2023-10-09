@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gabarito:wght@500&family=Montserrat:ital,wght@0,300;0,400;0,700;1,400;1,600&family=Poppins:wght@300&family=Roboto+Mono:wght@100&family=Roboto:wght@700&family=Ubuntu:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', 'Gabarito', 'Montserrat', 'Poppins', 'Roboto', 'Roboto Mono', 'Ubuntu', sans-serif;
+}
+
+
+
+nav{
+    background-color: black;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    text-decoration: none;
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+
+}
+
+.main-page{
+    background: url('https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+
+    height: 80vh;
+    background-size: cover;
+}
+
+.main-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}.main-page p{
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    /* color:Red; */
+}
+
+.section{
+    background-color: #df9a00;
+    border: 1px solid black;
+    margin-top: 10px;
+    border-radius: 15px;
+    width: 30%;
+    flex-wrap: nowrap;
+}
+
+.section h1 {
+
+    text-align: center;
+    margin: 5px;padding: 5px;
+
+}   
+
+.box{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.container{
+border: 1px solid black;
+margin: 10px;
+border-radius: 15px;
+display: flex;
+justify-content:space-around;
+}
+
+.container img{
+
+    width: 300px;
+    margin: 5px;
+}
+.container p{
+    width: 50%;
+    text-align: center;
+    /* border: 1px solid grey; */
+    display: flex;
+    align-items: center;
+}
+
+
+
+.contact-footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-icon img {
+    width: 30px; /* Adjust the size of the social media icons as needed */
+    height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .box {
+        flex-direction: column;
+    }
+
+    .container {
+        flex-direction: column;
+        
+    }
+    .section{
+        width: 100%;
+    }
+
+    .container img {
+        width: 100%;
+    }
+
+    .container p {
+        width: 100%;
+    }
+
+
+}
